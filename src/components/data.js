@@ -1,0 +1,12 @@
+// data.js
+
+const articlesData = [
+    { id: 1, title: "React", content: "React est une bibliothèque JavaScript utilisée pour construire des interfaces utilisateur interactives. Son approche basée sur les composants permet de diviser l'interface en morceaux réutilisables. React facilite le développement d'applications web réactives et dynamiques en mettant à jour efficacement le DOM (Document Object Model) lors de changements d'état." },
+    { id: 2, title: "Redux", content: "Redux est un gestionnaire d'état prévisible pour les applications JavaScript, généralement utilisé avec React. Son rôle est de centraliser l'état de l'application dans un magasin unique, facilitant ainsi la gestion et la modification des données. Redux encourage une architecture de données immuable, ce qui simplifie le suivi des modifications et améliore la prévisibilité de l'application." },
+    { id: 3, title: "ChatGPT", content: "ChatGPT est un modèle de langage développé par OpenAI qui utilise l'intelligence artificielle pour générer du texte cohérent et contextuellement approprié. Son principal rôle est de fournir des capacités de traitement du langage naturel (NLP) pour créer des chatbots, des systèmes de recommandation de texte et d'autres applications nécessitant une compréhension et une génération de langage naturel." },
+    { id: 4, title: "Développement Full Stack", content: "Le développement Full Stack implique la création d'applications web ou mobiles qui couvrent à la fois le front-end (ce que l'utilisateur voit) et le back-end (les fonctionnalités du serveur). Les développeurs Full Stack sont capables de travailler sur toutes les couches de l'application, de la conception de l'interface utilisateur à la gestion des bases de données. Leur rôle est de créer des applications robustes et fonctionnelles capables de répondre aux besoins des utilisateurs." },
+    { id: 5, title: "Intelligence Artificielle (AI)", content: "L'intelligence artificielle est une technologie qui permet aux ordinateurs d'imiter les capacités humaines telles que la perception, le raisonnement, l'apprentissage et l'action. Son rôle est de résoudre des problèmes complexes en analysant des données, en apprenant des modèles et en prenant des décisions autonomes. L'IA est utilisée dans de nombreux domaines, notamment la reconnaissance vocale, la vision par ordinateur, la traduction automatique, les véhicules autonomes, et bien d'autres encore." }
+  ];
+  
+  export default articlesData;
+  
